@@ -1,0 +1,12 @@
+div{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+mat-card{
+    width: fit-content;
+    height: 60px;
+    margin: 5px;
+}

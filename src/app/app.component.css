@@ -1,0 +1,35 @@
+
+
+div {
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 15% 70% 15%;
+    padding: 5px;
+    background-color: azure;
+}
+
+
+
+div,div>*
+{
+    border: 3px double blueviolet;
+}
+
+footer,header
+{
+    grid-column: span 6; 
+    height: 100%;
+}
+
+main
+{
+    grid-column: span 5; 
+    height: 100%;
+}
+
+
+ 
+
+ 

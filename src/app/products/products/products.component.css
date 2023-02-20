@@ -1,0 +1,15 @@
+:host
+{
+    height: 100%;
+    display: block;
+}
+
+.table-container {
+    max-height: 100%;
+    overflow: auto;
+  }
+
+  div{
+    overflow: auto;
+    height: 100%;
+  }
